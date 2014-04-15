@@ -1,11 +1,10 @@
 body {
   font: 15px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: #505050;
+  background: url('http://1.bp.blogspot.com/-Q-0gTaMnqPY/T7GbyxwWvEI/AAAAAAAAArc/DnINQPmC5fs/s1600/WrinkledPaperBackground.jpg');
 }
 #welcome {
   margin-bottom: 10px;
   font-size: 20pt;
-  color: white;
   font-weight: bold;
 }
 #chatURL {
@@ -94,7 +93,7 @@ video {
 .vids {
   width: 23%;
   float: left;
-  border: 1px solid #505050;
+  border: none;
   top: 20px;
 }
 #submission {
@@ -130,16 +129,13 @@ video {
   margin-top: 10px;
   margin-bottom: 30px;
   opacity: 0;
-  color: white;
   font-family: "Nova Round";
 }
 .thumbnail {
   display: inline-block;
   width: 100px;
   height: 75px;
-  border: 1px solid white;
   margin-left: 30px;
-  background: white;
   text-align: center;
 }
 .thumbnail video {
