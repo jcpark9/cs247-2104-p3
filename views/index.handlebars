@@ -1,14 +1,24 @@
   <div class="content">
-  <div>Welcome to {{title}}, enable camera to post video emoji!</div>
-  <div id="waiting">Connecting to chat server...</div>
-  <div id="second_counter"></div>
-  <div id="column">
-  <div id="conversation"></div>
-  <div id="vids">Hello</div>
-  </div>
-  <div id="submission">
-    <input type="text" placeholder="say something..">
-  </div>
-  <div id="webcam_stream"></div>
-  <div id="video_container"></div>
+    <div id="welcome">Welcome to {{title}}, enable camera to post video emoji!</div>
+    <div id="chatURL"></div>
+    <div id="waiting">Connecting to chat server...</div>
+    <div id="second_counter"></div>
+    <div id="column">
+      <div class="vids" id="you"><div id="response"><div id="placeholder">:)</div></div></div>
+      <div id="conversation"></div>
+      <div class="vids" id="me">
+        <div id="webcam_stream"><div id="recordsign">●</div></div>
+        <div class="timer">0<span id="time">7</span>:00</div>
+        <div class="emoticon" id="emoticon0"><div class="thumbnail"><img src="images/face1.png"></div><div class="rec">● RECORD</div><div class="send"><img src="images/arrow.png"> SEND</div><input type="text" value="label your emoticon"></div>
+        <div class="emoticon" id="emoticon1"><div class="thumbnail"><img src="images/face2.png"></div><div class="rec">● RECORD</div><div class="send"><img src="images/arrow.png"> SEND</div><input type="text"  value="label your emoticon"></div>
+        <div class="emoticon" id="emoticon2"><div class="thumbnail"><img src="images/face3.png"></div><div class="rec">● RECORD</div><div class="send"><img src="images/arrow.png"> SEND</div><input type="text"  value="label your emoticon"></div>
+        <div class="emoticon" id="emoticon3"><div class="thumbnail"><img src="images/face4.png"></div><div class="rec">● RECORD</div><div class="send"><img src="images/arrow.png"> SEND</div><input type="text"  value="label your emoticon"></div>
+        <div class="emoticon" id="emoticon4"><div class="thumbnail"><img src="images/face5.png"></div><div class="rec">● RECORD</div><div class="send"><img src="images/arrow.png"> SEND</div><input type="text"  value="label your emoticon"></div>
+
+      </div>
+    </div>
+    <div id="submission">
+      <input type="text" placeholder="say something..">
+    </div>
+    <div id="video_container"></div>
   </div>
