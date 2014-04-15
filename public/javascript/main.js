@@ -77,11 +77,12 @@
     });
 
     $(".send").click(function() {
-      var index = ($(this).parent().attr('id'));
+      var index = ($(this).parent().attr('id')).replace("emoticon", "");
 
+      console.log(index);
       if (cur_video_blob[index] != null) {
         users.forEach(function(user) {
-
+          console.log(user);
           if (user != username) {
             console.log ("sent to " + user);
             fb_instance_video.child(user).push({v: cur_video_blob[index]});
